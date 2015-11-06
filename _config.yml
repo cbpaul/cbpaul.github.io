@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-highlighter: pygments
+highlighter: true
 pygments:true
 title: 保罗博客
 email: cb_java@163.com
@@ -25,3 +25,6 @@ encoding: utf-8
 archive_path: /archive.html
 categories_path : /categories.html
 tags_path : /tags.html
+markdown: kramdown
+kramdown:
+  input: GFM
