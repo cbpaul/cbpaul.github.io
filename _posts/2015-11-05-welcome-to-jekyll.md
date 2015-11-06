@@ -20,7 +20,7 @@ Jekyll是一个静态网站生成工具。它允许用户使用`HTML、Markdown`
   2. 安装 `‘Easy Install’`
   3. 安装 `Pygments`
 5. 启动 `Jekyll`
-
+<!--break-->
 
 ## 安装 Ruby ##
 1. [下载`rubyinstall`安装文件](http://rubyinstaller.org/downloads/ "下载ruby安装文件")
