@@ -15,9 +15,9 @@ categories: jekyll update
 **借助 RubyGems 安装 Jekyl**
 
 安装 `Jekyll` 的最好方式就是使用 `RubyGems`. 你只需要打开终端输入以下命令就可以安装了：
-<pre class="prettyprint linenums">
- $ gem install jekyll
-</pre>
-
+    
+     $ gem install jekyll
+    
+    
 所有的 Jekyll 的 gem 依赖包都会被自动安装，所以你完全不用去担心。如果你在安装中碰到了问题，请查看 troubleshooting 或者 report an issue 那么Jekyll社区就会帮助你和其他用户解决问题了。
 
