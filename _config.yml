@@ -7,6 +7,7 @@
 
 # Site settings
 highlighter: pygments
+pygments:true
 title: 保罗博客
 email: cb_java@163.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -21,3 +22,6 @@ github_username:  cbpual
 # Build settings
 markdown: kramdown
 encoding: utf-8
+archive_path: /archive.html
+categories_path : /categories.html
+tags_path : /tags.html
