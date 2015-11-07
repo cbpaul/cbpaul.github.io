@@ -43,7 +43,7 @@ Jekyll是一个静态网站生成工具。它允许用户使用`HTML、Markdown`
     
    输出示例：
    
-		ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
+	ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
      
     
 ## 安装 DevKit ##
@@ -64,11 +64,12 @@ DevKit 是一个在 Windows 上帮助简化安装及使用 Ruby C/C++ 扩展如 
 
  4. 通过初始化来创建 config.yml 文件。在命令行窗口内，输入下列命令：
    		
- 		cd “C:\DevKit”
+		cd “C:\DevKit”
     
     	ruby dk.rb init
     
     	notepad config.yml
+    	
  5. 在打开的记事本窗口中，于末尾添加新的一行 - C:\Ruby200-x64，保存文件并退出。
 
  6. 回到命令行窗口内，审查（非必须）并安装。
