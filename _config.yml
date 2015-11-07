@@ -21,9 +21,6 @@ github_username:  cbpual
 # Build settings
 markdown: kramdown
 encoding: utf-8
-archive_path: /archive.html
-categories_path : /categories.html
-tags_path : /tags.html
 markdown: kramdown
 kramdown:
   input: GFM
