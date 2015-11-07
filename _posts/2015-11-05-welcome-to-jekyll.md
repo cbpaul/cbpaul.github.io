@@ -39,14 +39,12 @@ Jekyll是一个静态网站生成工具。它允许用户使用`HTML、Markdown`
 
 4. 打开一个命令提示行并输入以下命令来检测 Ruby 是否成功安装。
     
-    ruby -v
+ 		ruby -v
     
    输出示例：
-    
-    
-      ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
-    
-    
+   
+		ruby 2.0.0p451 (2014-02-24) [x64-mingw32]
+     
     
 ## 安装 DevKit ##
 DevKit 是一个在 Windows 上帮助简化安装及使用 Ruby C/C++ 扩展如 RDiscount 和 RedCloth 的工具箱。 详细的安装指南可以在程序的wiki 页面 阅读。
@@ -56,7 +54,8 @@ DevKit 是一个在 Windows 上帮助简化安装及使用 Ruby C/C++ 扩展如 
  2. 下载同系统及 Ruby 版本相对应的 DevKit 安装包。 例如，DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe 适用于64位 Windows 系统上的 Ruby 2.0.0 x64。
 
 下面列出了如何选择正确的 DevKit 版本：
-    Ruby 1.8.6 to 1.9.3: DevKit tdm-32-4.5.2
+
+	Ruby 1.8.6 to 1.9.3: DevKit tdm-32-4.5.2
     
     Ruby 2.0.0: DevKit mingw64-32-4.7.2
     
@@ -64,28 +63,31 @@ DevKit 是一个在 Windows 上帮助简化安装及使用 Ruby C/C++ 扩展如 
  3. 运行安装包并解压缩至某文件夹，如 C:\DevKit
 
  4. 通过初始化来创建 config.yml 文件。在命令行窗口内，输入下列命令：
-    cd “C:\DevKit”
+   		
+ 		cd “C:\DevKit”
     
-    ruby dk.rb init
+    	ruby dk.rb init
     
-    notepad config.yml
+    	notepad config.yml
  5. 在打开的记事本窗口中，于末尾添加新的一行 - C:\Ruby200-x64，保存文件并退出。
 
  6. 回到命令行窗口内，审查（非必须）并安装。
-    ruby dk.rb review
-    ruby dk.rb install
+		
+		ruby dk.rb review
+    
+    	ruby dk.rb install
 ## 安装 Jekyll ##
  1. 确保 gem 已经正确安装
-    
-    gem -v
+
+		gem -v
     
   输出示例：
     
-    2.0.14
+		2.0.14
     
  2. 安装 `Jekyll` `gem`
     
-    gem install jekyll
+		gem install jekyll
     
 ## 安装 Pygments ##
 Jekyll 里默认的语法高亮插件是 `Pygments`。 它需要安装 `Python` 并在网站的配置文件`_config.yml` 里将 `highlighter` 的值设置为`pygments`。
@@ -103,28 +105,28 @@ Jekyll 里默认的语法高亮插件是 `Pygments`。 它需要安装 `Python` 
     
    输出示例：
     
-    Python 2.7.6
+		Python 2.7.6
     
 ## 安装 ‘Easy Install’ ##
 1. 浏览 [https://pypi.python.org/pypi/setuptools#installation-instructions](https://pypi.python.org/pypi/setuptools#installation-instructions) 来查看详细的安装指南。
 2. 对于 Windows 7 的机器，下载 `ez_setup.py` 并保存，例如，至C:\。 然后从命令行使用 `Python` 运行此文件：
     
     
-    python “C:\ez_setup.py”
+		python “C:\ez_setup.py”
     
 3. 添加 ‘`Python Scripts`’ 路径 (如： C:\Python27\Scripts) 至 PATH
 ## 安装 `Pygments` ##
 1. 确保 easy_install 已经正确安装
     
-    easy_install --version
+		easy_install --version
     
   输出示例：
     
-    setuptools 3.1
+		setuptools 3.1
     
 2. 使用 “`easy_install`” 来安装 `Pygments`
     
-    easy_install Pygments
+		easy_install Pygments
     
 ## 启动 Jekyll ##
 按照官方的 Jekyll 快速开始手册 的步骤， 一个新的 Jekyll 博客可以被建立并在localhost:4000浏览。
