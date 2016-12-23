@@ -31,3 +31,6 @@ JB :
  comments :
     provider : custom
    
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-leap-day
