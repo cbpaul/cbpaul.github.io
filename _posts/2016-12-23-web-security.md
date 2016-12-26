@@ -11,19 +11,19 @@ categories: [web,security,web安全]
 
 	如：通过页面一些简单的表单输入框，进行javascript脚本攻击,下面这断代码没有对输入框进行字符检验或转义
 
-	    <script src="jquery-1.11.1.min.js"></script>
-    用户输入：<input type="text" id="in">
-    	<button id="sub">提交</button>
-    	<div id="showIn">
-    	</div>
-    <script>
-    	$(function(){
-    		$("#sub").click(function(){
-    			console.info(document.cookie)
-    			$("#showIn").html($("#in").val());
-    		});
-    	})
-    </script>
+	 `<script src="jquery-1.11.1.min.js"></script>
+用户输入：<input type="text" id="in">
+	<button id="sub">提交</button>
+	<div id="showIn">
+	</div>
+<script>
+	$(function(){
+		$("#sub").click(function(){
+			console.info(document.cookie)
+			$("#showIn").html($("#in").val());
+		});
+	})
+</script>`
 	
 
 2. CSRF(Cross-site request forgery)跨站请求伪造 
