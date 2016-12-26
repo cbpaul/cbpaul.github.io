@@ -15,7 +15,6 @@ categories: [web,security,web安全]
     用户输入：<input type="text" id="in">
     	<button id="sub">提交</button>
     	<div id="showIn">
-    
     	</div>
     <script>
     	$(function(){
