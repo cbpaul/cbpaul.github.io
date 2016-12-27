@@ -10,7 +10,7 @@ categories: [linux]
 1. **修改文件如下**
 
 
-    sudo vim /etc/network/interfaces
+    `sudo vim /etc/network/interfaces`
  
 修改内容如下：
 
@@ -23,10 +23,10 @@ categories: [linux]
 
 2. **重启网卡**
 
-    sudo /etc/init.d/network restart
+    `sudo /etc/init.d/network restart`
 
 3. **通过以上配置如果不能上外网，查看`dns`是否需要配置，修改配置文件**
 
-    sudo vim /etc/resolv.conf
+    `sudo vim /etc/resolv.conf`
 
 ，配置正确的`dns`,然后执行第二步
